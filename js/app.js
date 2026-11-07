@@ -1,19 +1,10 @@
-console.log("Hello, World!");
-
-class customer {
-    name;
-    age;
-    address;
-
-    constructor(name, age, address) {
-        this.name = name;
-        this.age = age;
-        this.address = address;
-    }   
-
+let number = 0;
+function btnIncrementOnAction(){
+  number++;
+  numberCount.innerText = "Number Count - " +number;
 }
 
-let customer1 = new customer("John Doe", 30, "123 Main St");
-
-console.log(customer1.name); // Output: John Doe
-
+function btnDecrementOnAction(){
+   number--;
+   numberCount.innerText = "Number Count - " +number;
+}
